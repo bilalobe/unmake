@@ -1,9 +1,12 @@
 require 'wx'
 
 class UnmakeGUI < Wx::App
+  public :main_loop
+
   def on_init
     frame = UnmakeFrame.new
     frame.show
+    true
   end
 end
 
@@ -29,7 +32,7 @@ class UnmakeFrame < Wx::Frame
 
     # Launch Button
     launch_button = Wx::Button.new(panel, -1, 'Launch Unmake!')
-    EVT_BUTTON(self, launch_button.get_id) { |event| on_launch }
+    evt_button(launch_button.get_id) { |event| on_launch }
     sizer.add(launch_button, 0, Wx::ALL | Wx::EXPAND, 5)
 
     panel.set_sizer(sizer)
@@ -40,7 +43,7 @@ class UnmakeFrame < Wx::Frame
     dragonfruit_mode = @dragonfruit_checkbox.is_checked ? '--dragonfruit' : ''
     
     # Construct the command line arguments
-    command = "perl unmake.pl --theme='$selected_theme' $dragonfruit_mode"
+    command = "perl unmake.pl --theme='#{selected_theme}' #{dragonfruit_mode}"
 
     # Execute the Perl script
     system(command)
