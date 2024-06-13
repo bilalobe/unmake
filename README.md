@@ -24,3 +24,5 @@ Go forth, intrepid coder, and let the symphony of "unmake" fill your digital cos
 ### `Light & Shadow` : Shh!! You stumbled upon a mystic octopus.  _TREAD CAREFULLY_
 ### `Dawn & Dusk` : Carrying a powerful hammer, the purple void seems to have tentacles. _DO NOT STUMBLE_
 ### `Ebb & Flow`: You cant help but look (or listen). _IN AWE_
+
+!Logo (/images/logo_logo.jpg)
