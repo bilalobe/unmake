@@ -1,0 +1,7 @@
+[Skin]
+Color=5D8C0A
+CurColor=005033
+CurColor2=005033
+BKCurColor=A3D62A
+BKColor=D6FE5D
+InfoColor=005033
