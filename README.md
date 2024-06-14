@@ -25,4 +25,4 @@ Go forth, intrepid coder, and let the symphony of "unmake" fill your digital cos
 ### `Dawn & Dusk` : Carrying a powerful hammer, the purple void seems to have tentacles. _DO NOT STUMBLE_
 ### `Ebb & Flow`: You cant help but look (or listen). _IN AWE_
 
-![Logo](/images/logo_logo.jpg)
+![Logo](bin/extras/images/logo_logo.jpg)
